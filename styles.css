@@ -129,6 +129,15 @@
     
   }
    */
+   /* dev con icon */
+   .devicon-devicon-plain {
+    max-width: 2em;
+  }
+  
+  /* if you want to change the original color */
+  .devicon-devicon-plain path {
+    fill: #4691f6;
+  }
   
   /*-----------------------------------*\
     #RESET
@@ -190,6 +199,7 @@
     padding: 15px;
     box-shadow: var(--shadow-1);
     z-index: 1;
+  
   }
   
   .separator {
@@ -532,7 +542,7 @@
   
   .service { margin-bottom: 35px; }
   
-  .service-title { margin-bottom: 20px; }
+  .service-title { margin-bottom: 10px; }
   
   .service-list {
     display: grid;
@@ -562,7 +572,10 @@
   
   .service-icon-box img { margin: auto; }
   
-  .service-content-box { text-align: center; }
+  .service-content-box { 
+    text-align: center; 
+    margin-bottom: 20px;
+  }
   
   .service-item-title { margin-bottom: 7px; }
   
@@ -571,6 +584,7 @@
     font-size: var(--fs-6);
     font-weight: var(--fw-3);
     line-height: 1.6;
+    margin: 6px;
   }
   
   
