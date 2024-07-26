@@ -562,8 +562,14 @@
   
   .service-icon-box img { margin: auto; }
   
-  .service-content-box { text-align: center; }
-  
+  .service-content-box {
+     text-align: center; 
+     
+    
+    }
+  #certs{
+    margin-bottom: 30px;
+  }
   .service-item-title { margin-bottom: 7px; }
   
   .service-item-text {
@@ -571,8 +577,15 @@
     font-size: var(--fs-6);
     font-weight: var(--fw-3);
     line-height: 1.6;
+    margin-bottom: 10px;
   }
-  
+  .tech-stack {
+  display: flex;
+  max-width: 300px;
+  }
+  .stack-icon {
+    width: 30px;
+  }
   
   /**
    * #testimonials 
@@ -885,7 +898,7 @@
     border-radius: inherit;
   }
   
-  
+
   
   
   
@@ -1898,3 +1911,6 @@
     .timeline-text { max-width: 700px; }
   
   }
+
+ 
+  
